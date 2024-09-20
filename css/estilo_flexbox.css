@@ -1,0 +1,26 @@
+.div1{
+    background-color: bisque;
+}
+
+.div2{
+    background-color: rgb(210, 154, 86);
+}
+
+.div3{
+    background-color: rgb(215, 132, 29);
+}
+
+.container{
+    border: 2px solid black;
+    /* Limita o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item{
+    background: rgb(185, 149, 219);
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+}

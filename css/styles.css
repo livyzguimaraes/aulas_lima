@@ -1,0 +1,107 @@
+
+/* Seletor universal */
+* {
+  margin: 0;
+}
+/*Seletor de tipo, aplicando em uma tag */
+p{
+  color:brown
+}
+
+/*Seletor de Classe */
+.paragrafo{
+  background-color:rgb(168, 127, 77);
+  /* margin: 10px; - Aplica em todas as margens */
+  /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'Superior e inferior' */
+  margin: 10px 20px 30px 40px; /*Aplica margem top, right, bottom, left */
+  margin-left: 10px;
+  /* alinha elementos ao centro */
+  text-align: center;
+}
+
+.imagem {
+  width: 150px;
+  height: 100px;
+}
+body {
+    background-color: cadetblue;
+}
+
+.tabela{
+    /* remover os espaços entre as bordas */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cabecalho, .celula {
+    /* configura o formato da borda
+    Expessura, tipo e cor */
+    border: 2px solid #ddd;
+    /* define o espaçamento interno */
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+.cabecalho2 {
+    background-color: aquamarine;
+}
+
+.cabecalho3 {
+    background-color: brown;
+}
+
+.linha-br2{
+  background-color: bisque;
+}
+
+.formulario{
+  background-color: burlywood;
+}
+
+.input-nome{
+  /*remove a borda do elemento */
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  /*define a opacidade do elemento */
+  opacity: 70%;
+}
+
+.botao{
+  background-color: rgb(127, 208, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  /* aplica sombra no texto posição x,y, blur e o rgba que aplica com opacidade */
+  text-shadow: 5px 2px 5px rgb(44, 117, 233);
+}
+
+.checar {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  /*modifica o tipo do cursor */
+  cursor: pointer;
+  /* zerar as configurações de aparencia */
+  appearance: none;
+  background-color: #fff;
+  border: 2px solid #4ca;
+  border-radius: 5px;
+  cursor: pointer;
+  /* sombra no input */
+  box-shadow: 0 2px 5px rgb(0,0,0,0.8);
+}
+.radio {
+  appearance: none;
+  width: 20px;
+  height: 2px solid #d321dd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* Pseudoclasse, quando o estado do objeto muda, ele atribui outras propriedades */
+.radio:checked{
+  background-color: burlywood;
+  border-color: antiquewhite;
+}
